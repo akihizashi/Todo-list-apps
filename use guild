@@ -1,6 +1,7 @@
 1. フォルダーをダウンロードしてから、C:\xampp\htdocsにコピーをしてください。
-2. Commando Promptを起動して、mysql -u root -p　でアクセスして、create database teamlab; を打って、データベース作ってください。
-3. Commando Promptで cd c:\xampp\htdocs\Todo-list-apps でフォルダーにアクセスして、php artisan migrate を打つと,
+2. Xamppを起動してApacheとMySQLを起動してください。
+3. Commando Promptを起動して、mysql -u root -p　でアクセスして、create database teamlab; を打って、データベース作ってください。
+4. Commando Promptで cd c:\xampp\htdocs\Todo-list-apps でフォルダーにアクセスして、php artisan migrate を打つと,
    データベースにテーブルを自動的に作られます。
-4. また、他のCommando Promptを起動して　php artisan serve を打つと、アプリのdevelope serverを自動的に起動されます。
-5. ブラウザを起動して　localhost:8000/login　を打つと、アプリをアクセスすることが出来ます。
+5. また、他のCommando Promptを起動して　php artisan serve を打つと、アプリのdevelope serverを自動的に起動されます。
+6. ブラウザを起動して　localhost:8000/login　を打つと、アプリをアクセスすることが出来ます。
