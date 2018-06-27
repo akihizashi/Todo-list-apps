@@ -37,7 +37,7 @@ class TasksController extends Controller
     public function store()
     {
       $this->validate(request(), [
-          'body' => 'required|max:30|regex:/([a-zA-Z0-9]*)(\s*)/'
+          'body' => 'required|max:30|regex:/^[a-zA-Z0-9 ]*$/'
       ]);
 
       Task::create([
