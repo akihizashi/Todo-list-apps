@@ -19,7 +19,7 @@ class WorkController extends Controller
   public function store()
   {
     $this->validate(request(), [
-        'body'        => 'required|max:31|regex:/([a-zA-Z0-9]*)(\s*)/',
+        'body'        => 'required|max:31|regex:/^[a-zA-Z0-9 ]*$/',
         'deadline'    => 'required'
     ]);
 
